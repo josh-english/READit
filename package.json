@@ -1,0 +1,24 @@
+{
+  "name": "readit",
+  "version": "1.0.0",
+  "description": "A RESTful Reddit Clone with User Auth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-english/readit.git"
+  },
+  "author": "Josh English",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh-english/readit/issues"
+  },
+  "homepage": "https://github.com/josh-english/readit#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  }
+}
