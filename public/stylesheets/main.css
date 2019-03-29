@@ -1,0 +1,16 @@
+body {
+	background: #DAE0E6;
+}
+
+#bg-white{
+	color: white;
+}
+
+.about {
+	font-size: 10px;
+	background: white;
+}
+
+.btn-wide {
+	width: 8.0em;
+}
