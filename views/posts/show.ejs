@@ -1,5 +1,8 @@
 <% include ../partials/header %>
 
-<h1><%= post.title %></h1>
+<div class="container">
+	<h1><%= post.title %></h1>
+	<a href="/posts/<%= post._id%>/edit" class="btn btn-warning">Edit Me!</a>
+</div>
 
 <% include ../partials/footer %>
