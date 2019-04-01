@@ -24,3 +24,7 @@ body {
 .navbar {
 	height: 45px !important;
 }
+
+a.custom-card:hover{
+	text-decoration: none;
+}
