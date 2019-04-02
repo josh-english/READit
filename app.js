@@ -88,6 +88,18 @@ app.put("/posts/:id", function(req, res){
 	});
 });
 
+// destroy route
+app.delete("/posts/:id", function(req, res){
+	Post.findByIdAndRemove(req.params.id, function(err){
+		if(err){
+			res.redirect("/posts");
+		}
+		else {
+			res.redirect("/posts");
+		}
+	});
+});
+
 app.listen(port, function(){
 	console.log("Express Server is running!");
 });

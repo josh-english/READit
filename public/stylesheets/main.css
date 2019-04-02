@@ -28,3 +28,7 @@ body {
 a.custom-card:hover{
 	text-decoration: none;
 }
+
+.btn-warning{
+	color: white;
+}
