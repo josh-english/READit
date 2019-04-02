@@ -32,3 +32,9 @@ a.custom-card:hover{
 .btn-warning{
 	color: white;
 }
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
